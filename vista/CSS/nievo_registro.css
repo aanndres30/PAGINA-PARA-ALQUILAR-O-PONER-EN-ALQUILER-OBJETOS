@@ -57,15 +57,26 @@ button{
     margin: 0 auto;
 }
 
+.grupo_botones{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.grupo_botones button{
+    cursor: pointer;
+}
+
 .options{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 15px;
 }
 
 .options a{
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 
 .options a:hover{
